@@ -50,7 +50,7 @@ now source your env
 Now build mesa in OGL mode
 
 13. `$ cd mesa`
-14. `$./autogen.sh --enable-gallium-swrast --with-gallium-drivers=swrast --disable-gallium--llvm --disable-dri --disable-gbm --disable-egl` 
+14. `$./autogen.sh --enable-gallium-swrast --with-gallium-drivers=swrast --disable-gallium-llvm --disable-dri --disable-gbm --disable-egl` 
 15. `$ make -j4`
 
 copying libGL (related to some building bug to be fixed)
